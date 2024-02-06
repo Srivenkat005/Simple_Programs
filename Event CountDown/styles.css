@@ -1,0 +1,58 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("wp5076799-anime-alone-romantic-dark-wallpapers.jpg");
+  background-size: cover;
+}
+
+#countdown {
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  padding-bottom: 300px;
+  padding: 115px;
+  background: radial-gradient(circle, rgba(129,147,237,1) 2%, rgba(61,58,167,1) 87%);
+  box-shadow: 10px 10px 5px rgb(65, 65, 65);
+}
+
+#eventsList {
+  margin-top: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+h1{
+    font-size: 55px;
+}
+
+
+
+button {
+    padding: 15px 25px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #a7a1fe;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {
+    transition: 1.3s;
+    background-color: #7356a1;
+  }
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #929292;
+    transform: translateY(4px);
+    transition: 0.5s;
+  }
